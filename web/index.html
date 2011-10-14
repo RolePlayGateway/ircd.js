@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" 
+        src="http://localhost:8000/live.js">
+        </script>
+</head>
+<body>
+<script type="text/javascript">
+    var client = new Faye.Client('http://localhost:8000/live');
+    var subscription = client.subscribe('/test/messages', function(message) {
+      console.log(message)
+    });
+</script>
+</body>
+</html>
