@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "carrier": ">= 0.0.3",
-    "faye": ">= 0.6.6"
+    "faye": "= 0.6.3"
   },
   "devDependencies": {
     "nodeunit": "latest",
