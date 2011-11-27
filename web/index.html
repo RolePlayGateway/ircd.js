@@ -9,7 +9,7 @@
 <body>
 <script type="text/javascript">
     var client = new Faye.Client('http://localhost:8000/live');
-    var subscription = client.subscribe('/test/messages', function(message) {
+    var subscription = client.subscribe('/channels/test/messages', function(message) {
       console.log(message)
     });
 </script>
