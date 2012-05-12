@@ -20,7 +20,9 @@
     "carrier": ">= 0.0.3",
     "bcrypt": ">= 0.4.0",
     "winston": "latest",
-    "commander": "latest"
+    "commander": "latest",
+    "underscore": "latest",
+    "express": "latest"
   },
   "devDependencies": {
     "nodeunit": "0.6.2",
