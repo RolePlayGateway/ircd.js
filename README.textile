@@ -18,6 +18,7 @@ The server will allow clients to connect, join channels, change topics; basic st
 
 Done:
 
+* PASS (connection password)
 * PING/PONG
 * PRIVMSG
 * MODE
@@ -63,6 +64,8 @@ Set up configuration in <code>/etc/ircdjs/config.json</code>.
 
 h3. Contributions
 
+* overra
+* jazzychad (Chad Etzel)
 * Sebastian A. Espindola (sespindola)
 * niklasf
 * treeform
@@ -82,4 +85,3 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see "http://www.gnu.org/licenses/":http://www.gnu.org/licenses/.
-

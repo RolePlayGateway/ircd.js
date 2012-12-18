@@ -10,11 +10,16 @@
   "opers": {
     "alex": { "password": "$2a$10$T1UJYlinVUGHqfInKSZQz./CHrYIVVqbDO3N1fRNEUvFvSEcshNdC" }
   },
+  "channels": {
+    "channel1": { "topic": "First Channel" },
+    "channel2": { "topic": "Second Channel" }
+  },
   "links": {
     "server2": { "host": "127.0.0.1",
                  "password": "$2a$10$T1UJYlinVUGHqfInKSZQz./CHrYIVVqbDO3N1fRNEUvFvSEcshNdC",
                  "port": 7778,
                  "token": 2 }
-  }
+  },
+  "pingTimeout": 120,
+  "maxNickLength": 30
 }
-

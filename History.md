@@ -1,3 +1,23 @@
+0.0.17 / 2012-09-21
+
+  * Fixes parsing of messages with extra colons (#49)
+
+0.0.16 / 2012-08-31
+
+  * Changed the way PASS is handled (must be sent before NICK/USER)
+  * Fixed a bug where nick collisions could occur when server passwords were used
+
+0.0.15 / 2012-07-04
+
+  * Default channels (Sebastian A. Espindola)
+  * Migrated tests to Mocha
+  * Tested against Node 0.8
+  * Locked down module versions
+
+0.0.14 / 2012-06-05
+
+  * Added connection passwords (PASS)
+
 0.0.12 / 2012-05-01
 
   * Added MOTD (sespindola)
